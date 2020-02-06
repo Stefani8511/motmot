@@ -233,7 +233,7 @@ button {
     height: 30vh;
   
     border-radius: 20px;
-    background: linear-gradient(rgba(137, 137, 160, 0.5), rgba(173, 173, 167, 0.5)), url("potes.jpg") center;
+    background: linear-gradient(rgba(162, 162, 168, 0.5), rgba(197, 197, 193, 0.5)), url("potes.jpg") center;
     background-repeat: no-repeat;
 
 }
@@ -301,7 +301,7 @@ text-decoration: underline;
 }
 #chouette{
 width: 100%;
-height: 300px;
+height: 200px;
     background: orangered;
        background-size: cover;
        margin-top: 50px;
@@ -309,11 +309,31 @@ height: 300px;
 .copy{
     display: flex;
    justify-content: center; 
-   border-inline-start: black;
+   border-top-style: double;
 }
 .copy a{
     text-decoration: underline;
 }
 .community{
-box-shadow: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.tem{
+    
+    border : 0.2em solid black;
+    width: 8em;
+    height: 8em;
+    padding: 1em;
+    border-radius: 100%; 
+       font-size: 15px;
+    text-align: center;
+     text-decoration: underline;
+
+
+    
+    
+    
 }
