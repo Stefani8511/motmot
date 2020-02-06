@@ -9,7 +9,61 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
-    <title>Les Mot'Mot' en folie</title>
+    <title>Les Mot'Mot'</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+        }
+
+        .menuitem {
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+
+        .right {
+            background-color: lightblue;
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+        }
+
+        @media only screen and (max-width:800px) {
+
+            /* For tablets: */
+            .main {
+                width: 80%;
+                padding: 0;
+            }
+
+            .right {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+
+            /* For mobile phones: */
+            .menu,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
 
 </head>
 
@@ -104,15 +158,37 @@
             <h2>Forum</h2>
             <p>Parce que tu ne veux pas sortir tout seul.<br>
                 Parce que tu as besoin de conseil...
-                <a href="#" class="button2">Connectes-toi ici</a>
+                <a href="#" class="button2">Connectes-toi</a>
             </p>
         </section>
 
         <section class="contact">
             <h2>Contact</h2>
-            <p>Un souci? une petite question? c'est ici!</p>
+            <p>Un souci? une petite question? <a href="#">contact@lesmotmotabord.com</a></p>
         </section>
     </div>
+
+    <footer id="chouette">
+        <div class="inpy">
+<div class="infop">
+    <ul class="community">
+        <li><h4>Conseils</h4></li>
+       
+
+
+    </ul>
+
+</div>
+
+
+            <div class="copy">
+                <p> Copyright  <i class="far fa-copyright"></i>  Les Mot'Mot' à bord- 1950-2020. 1er site d'information et
+                    de services motos. Tous droits réservés. <a href="#">Mentions légales.</a>  </p>
+            </div>
+
+
+        </div>
+    </footer>
 
 </body>
 
