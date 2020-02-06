@@ -45,6 +45,21 @@ header nav {
 
 }
 
+.actu{
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.actu:hover{
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+}
+
 .face {
     position: absolute;
     top: 100px;
@@ -56,9 +71,7 @@ header nav {
     margin-left: 20px;
     margin-top: 20px;
     color: rgb(9, 6, 209);
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    position: absolute;
 
 }
 
@@ -75,6 +88,7 @@ header nav {
 .liste ul {
     display: flex;
     justify-content: space-between;
+
 }
 
 a:hover {
@@ -278,15 +292,24 @@ h2 {
 
 .contact {
     width: 350px;
-    height: 30vh;
+    height: 350px;
     border-radius: 20px;
     background: linear-gradient(rgba(137, 137, 160, 0.5), rgba(179, 179, 137, 0.5)), url("contact.png") center;
     background-repeat: no-repeat;
+
 }
 
-.contact p {
+.souci {
     font-family: 'Anton', sans-serif;
     width: 70px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    margin-left: 30px;
+    font-size: 20px;
+   
    
 
 }
@@ -302,6 +325,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+   
 
 }
 .contact a{
@@ -340,11 +364,6 @@ height: 200px;
    display: flex;
    justify-content: center;
    align-items: center;
-
      text-decoration: underline;
-
-
-    
-    
-    
+        box-shadow: 2px 2px 5px 5px black;
 }
