@@ -230,11 +230,13 @@ button {
 
 .forum {
     width: 350px;
-    height: 30vh;
+    height: 350px;
   
     border-radius: 20px;
     background: linear-gradient(rgba(162, 162, 168, 0.5), rgba(197, 197, 193, 0.5)), url("potes.jpg") center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -251,7 +253,13 @@ h2 {
 .forum h2 {
     margin-left: 20px;
 }
-
+.parce{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
 .button2 {
     display: block;
     width: 160px;
@@ -329,7 +337,10 @@ height: 200px;
     padding: 1em;
     border-radius: 100%; 
        font-size: 15px;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
      text-decoration: underline;
 
 
