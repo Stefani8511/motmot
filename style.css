@@ -84,11 +84,11 @@ header nav {
 
 
 }
-
+/*
 .face a:hover {
     transform: rotate(1turn);
 }
-
+*/
 .face p {
     color: black;
     font-family: 'Bangers', cursive, sans-serif;
@@ -129,12 +129,13 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
-
+/*titre et icone + liste*/
 .vay {
     font-size: 250px;
     margin-top: 10px;
     color: white;
 }
+/*les petites actus*/
 .actu{
     display: flex;
     flex-direction: column;
@@ -228,7 +229,7 @@ button {
     justify-content: space-around;
     align-items: center;
 }*/
-
+/*idee de sorties*/
 .partir {
     display: flex;
     flex-direction: column;
@@ -264,7 +265,7 @@ button {
     list-style: none;
 
 }
-
+/*forum*/
 .forum {
     width: 350px;
     height: 350px;
@@ -314,7 +315,7 @@ h2 {
     font-family: 'Bangers', cursive, sans-serif;
 
 }
-
+/*contact*/
 .contact {
     width: 350px;
     height: 350px;
@@ -345,7 +346,7 @@ h2 {
     justify-content: flex-end;
     margin-right: 20px;
 }
-
+/* ens. forum photo contact*/
 .fotact {
     display: flex;
     align-items: center;
@@ -357,7 +358,7 @@ flex-wrap: wrap;
 .contact a {
     text-decoration: underline;
 }
-
+/*footer*/
 #chouette {
     width: 100%;
     height: 200px;
@@ -384,7 +385,7 @@ flex-wrap: wrap;
 
 
 }
-
+/*footer*/
 .tem {
 
     border: 0.2em solid black;
@@ -401,20 +402,23 @@ flex-wrap: wrap;
 
 }
 
-
+/*photo du jour*/
 .photo {
     width: 350px;
     height: 350px;
     border-radius: 20px;
-    background-image: url("./jour.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
+  border-style: solid;
+  border-color: orangered;
     background-size: cover;
 
 }
+.photo p{
+display: flex;
+justify-content: center;
+align-items: flex-end;
 
 
-
+}
 .mot h2 {
     color: antiquewhite;
     display: flex;
