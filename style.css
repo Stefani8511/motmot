@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style: none;
 }
-    
+
 body {
     background-color: rgb(12, 11, 11);
 }
@@ -45,19 +45,28 @@ header nav {
 
 }
 
-.carre{
-    -webkit-transition: all 1s ease; /* Safari et Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* Internet Explorer 9 */
-    -o-transition: all 1s ease; /* Opera */
+.carre {
+    -webkit-transition: all 1s ease;
+    /* Safari et Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* Internet Explorer 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
     transition: all 1s ease;
 }
-.carre:hover{
-    -webkit-transform:scale(1.25); /* Safari et Chrome */
--moz-transform:scale(1.25); /* Firefox */
--ms-transform:scale(1.25); /* Internet Explorer 9 */
--o-transform:scale(1.25); /* Opera */
-transform:scale(1.25);
+
+.carre:hover {
+    -webkit-transform: scale(1.25);
+    /* Safari et Chrome */
+    -moz-transform: scale(1.25);
+    /* Firefox */
+    -ms-transform: scale(1.25);
+    /* Internet Explorer 9 */
+    -o-transform: scale(1.25);
+    /* Opera */
+    transform: scale(1.25);
 }
 
 .face {
@@ -72,12 +81,14 @@ transform:scale(1.25);
     margin-top: 20px;
     color: rgb(9, 6, 209);
     position: absolute;
-    
+
 
 }
-.face a:hover{
+
+.face a:hover {
     transform: rotate(1turn);
 }
+
 .face p {
     color: black;
     font-family: 'Bangers', cursive, sans-serif;
@@ -124,12 +135,18 @@ h1 {
     margin-top: 10px;
     color: white;
 }
-
+.actu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .actus {
     display: flex;
     justify-content: space-around;
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
+    height: 250px;
 
 }
 
@@ -146,14 +163,17 @@ h2 {
     font-size: 50px;
 }
 
-.actu img .accueil h2 {
-    margin-bottom: 20px;
-    font-size: 40px;
+.actu .carre{
+     height: 150px;
+    width: 150px;
+    
 }
 
+
 .actu img {
-    height: 150px;
-    width: 150px;
+   height: 100%;
+   width: 100%;
+object-fit: cover;
 }
 
 .idee {
@@ -248,7 +268,7 @@ button {
 .forum {
     width: 350px;
     height: 350px;
-  
+
     border-radius: 20px;
     background: linear-gradient(rgba(162, 162, 168, 0.5), rgba(197, 197, 193, 0.5)), url("potes.jpg") center;
     background-repeat: no-repeat;
@@ -270,13 +290,15 @@ h2 {
 .forum h2 {
     margin-left: 20px;
 }
-.parce{
-    height:100%;
+
+.parce {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-around;
 }
+
 .button2 {
     display: block;
     width: 160px;
@@ -305,91 +327,95 @@ h2 {
 .souci {
     font-family: 'Anton', sans-serif;
     width: 70px;
-    height:100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-around;
     margin-left: 30px;
     font-size: 20px;
-   
-   
+
+
 
 }
 
 .contact h2 {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;    
-     margin-right: 20px;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 
 .fotact {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+flex-wrap: wrap;
 
 }
-.contact a{
-text-decoration: underline;
-}
-#chouette{
-width: 100%;
-height: 200px;
-    background: orangered;
-       background-size: cover;
-       margin-top: 50px;
-}
-.copy{
-    display: flex;
-   justify-content: center; 
-   border-top-style: double;
-}
-.copy a{
+
+.contact a {
     text-decoration: underline;
 }
-.community{
+
+#chouette {
+    width: 100%;
+    height: 200px;
+    background: orangered;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    border-top-style: double;
+}
+
+.copy a {
+    text-decoration: underline;
+}
+
+.community {
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
-   
+
+
 }
 
-.tem{
-    
-    border : 0.2em solid black;
+.tem {
+
+    border: 0.2em solid black;
     width: 8em;
     height: 8em;
     padding: 1em;
-    border-radius: 100%; 
-       font-size: 15px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-     text-decoration: underline;
-        box-shadow: 2px 2px 5px 5px black;
-       
+    border-radius: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px 5px black;
+
 }
 
 
-.photo{
+.photo {
     width: 350px;
     height: 350px;
-   
+    border-radius: 20px;
+    background-image: url("./jour.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.mot{
-background-image: url("./jour.jpeg");
-background-position: center;
-width: 350px;
-height: 350px;
-border-radius: 20px;
 
-}
-.mot h2{
+
+
+.mot h2 {
     color: antiquewhite;
     display: flex;
     justify-content: center;
