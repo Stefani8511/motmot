@@ -45,14 +45,14 @@ header nav {
 
 }
 
-.actu{
+.carre{
     -webkit-transition: all 1s ease; /* Safari et Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* Internet Explorer 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
 }
-.actu:hover{
+.carre:hover{
     -webkit-transform:scale(1.25); /* Safari et Chrome */
 -moz-transform:scale(1.25); /* Firefox */
 -ms-transform:scale(1.25); /* Internet Explorer 9 */
@@ -72,9 +72,12 @@ transform:scale(1.25);
     margin-top: 20px;
     color: rgb(9, 6, 209);
     position: absolute;
+    
 
 }
-
+.face a:hover{
+    transform: rotate(1turn);
+}
 .face p {
     color: black;
     font-family: 'Bangers', cursive, sans-serif;
@@ -352,7 +355,9 @@ height: 200px;
     align-items: center;
     justify-content: space-around;
    
+   
 }
+
 .tem{
     
     border : 0.2em solid black;
@@ -366,4 +371,27 @@ height: 200px;
    align-items: center;
      text-decoration: underline;
         box-shadow: 2px 2px 5px 5px black;
+       
 }
+
+
+.photo{
+    width: 350px;
+    height: 350px;
+   
+
+}
+.mot{
+background-image: url("./jour.jpeg");
+background-position: center;
+width: 350px;
+height: 350px;
+border-radius: 20px;
+
+}
+.mot h2{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
